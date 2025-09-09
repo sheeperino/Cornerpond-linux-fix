@@ -1,5 +1,7 @@
 **I couldn't get Steam support to work, see [TODOs](TODO.md)**
 
+![Image](SCREENSHOT.png "proof of native decomp")
+
 # Guide
 
 ## Native build
