@@ -1,3 +1,5 @@
+**I couldn't get Steam support to work, see [TODOs](TODO.md)**
+
 # Guide
 
 ## Native build
