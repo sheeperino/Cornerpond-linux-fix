@@ -2,6 +2,7 @@
 >     var viewport = get_viewport()
 >     var mouse_abs_pos = get_global_mouse_position() * viewport.get_screen_transform().get_scale()
 >     if (mouse_abs_pos.x < 0 or mouse_abs_pos.y < 0): return
+>     if (mouse_abs_pos.x >= window.size.x or mouse_abs_pos.y >= window.size.y): return
 > 
 >     await RenderingServer.frame_post_draw
 >     var img = viewport.get_texture().get_image()
